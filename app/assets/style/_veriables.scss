@@ -1,0 +1,33 @@
+$font-lato: 'Lato', sans-serif;
+$font-roboto: 'Roboto Mono', monospace;
+
+// font size
+$font-base: 1rem;
+$font-ss: $font-base*0.75; //12
+$font-sm: $font-base*0.875; //14
+$font-md: $font-base*1.25; //20
+$font-lg: $font-base*1.5; //24
+
+$h1: $font-base*3.75; //60
+
+
+// spacing
+$mg-sm: 4px;
+$mg-1: 8px;
+$mg-2: $mg-1*2;
+$mg-3: $mg-1*3;
+$mg-4: $mg-1*4;
+$mg-5: $mg-1*5;
+$mg-6: $mg-1*6;
+$mg-7: $mg-1*7;
+$mg-8: $mg-1*8;
+$mg-9: $mg-1*9;
+
+
+// color
+$primary: #212529;
+$secondary: #198754;
+$dark: #CED4DA;
+$light: #F8F9FA;
+
+$link-color: $secondary

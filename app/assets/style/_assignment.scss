@@ -1,0 +1,126 @@
+.assignment{
+  width: 77%;
+  padding: $mg-4;
+}
+
+.nav{
+  margin-bottom: $mg-5;
+  h2{
+    font-size: $font-lg;
+    margin-right: $mg-6;
+  }
+  // 一直無法垂直置中
+  p{
+    line-height: 26px;
+  }
+  span{
+    display: inline-block;
+    margin-left: $mg-1;
+  }
+  .navFunc{
+    .fa-search{
+      margin-right: $mg-3;
+    }
+  }
+}
+
+.list{
+  padding-right: $mg-4;
+  span{
+    display: inline-block;
+    margin-left: $mg-1;
+    margin-bottom: 6px;
+  }
+  .listBox{
+    width: 320px;
+    margin-right: $mg-2 ;
+    li{
+      border: 1px solid $dark;
+      padding: 12px;
+    }
+  }
+}
+
+.detail{
+  border: 1px solid $dark;
+  width: 584px;
+  .detailTitle{
+    border-radius: 2px 2px 0px 0px;
+    padding: 12px $mg-2;
+    border-bottom: 1px solid $dark;
+  }
+}
+
+.detailContent{
+  padding: $mg-2;
+  .personalData{
+    .pic{
+      margin-right: $mg-1;
+    }
+    .name{
+      margin-bottom: $mg-sm;
+    }
+  }
+  .detailInfo{
+    padding-bottom: $mg-2;
+    margin-left: $mg-6;
+    .article{
+      margin-top: $mg-2;
+      font-size: $font-sm;
+    }
+
+  }
+}
+
+.choseDetail{
+  .pic{
+      @include pic('../images/emilywang.jpeg')
+  }
+  .detailInfo{
+    border-bottom: 1px solid $dark;
+  }
+  .download{
+    margin-top: $mg-2;
+    width: 176px;
+    background-color: $light;
+    border: 1px solid $dark;
+    border-radius: 2px;
+    padding: 10px 16px 10px 12px;
+  i{
+    margin-right: $mg-1;
+  }
+}
+}
+
+.notChose{
+  .personalData{
+    .pic{
+      @include pic('../images/andychen.jpeg')
+    }
+  }
+  .spacer{
+    margin: $mg-3 0;
+  }
+}
+
+.function{
+  width: 584px;
+  margin-top: $mg-3;
+  margin-left: 340px;
+  a{ 
+    display: inline-block;
+    font-size: $font-lg;
+    color: $primary;
+  }
+  .previous{
+    margin-right: $mg-3;
+  }
+  .btn-outline-success{
+    width: 157px;
+    margin-right: $mg-2;
+  }
+  .btn-success{
+    width: 105px;
+  }
+
+}
