@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif, "Roboto Mono", monospace; }
+
+* {
+  color: #212529;
+  line-height: 1.5rem; }
+
+.boldTxt {
+  font-weight: 800; }
+
+.lanCss {
+  font-family: "Roboto Mono", monospace;
+  background-color: #F8F9FA;
+  color: #198754; }
+
+.fz-ss {
+  font-size: 0.75rem; }
+
+.mb-sm {
+  margin-bottom: 4px; }
+
+.gray-600 {
+  color: #6c757d; }
+
+.chose {
+  background-color: #F8F9FA; }
+
+.header {
+  width: 23%;
+  height: 800px;
+  background-color: #F8F9FA; }
+  .header .logo {
+    margin: 32px; }
+    .header .logo a {
+      display: block;
+      background: url("../images/logo-ANSWER.svg") no-repeat;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+      color: #212529;
+      font-size: 48px; }
+  .header .content {
+    height: 86%; }
+  .header .nav-item {
+    height: 32px;
+    margin: 6px 0;
+    padding-left: 32px; }
+    .header .nav-item:hover {
+      background-color: #CED4DA; }
+    .header .nav-item a {
+      color: #212529; }
+  .header .choseNav {
+    border-left: 4px solid #198754; }
+    .header .choseNav:hover {
+      background-color: #F8F9FA; }
+  .header .userPhoto {
+    margin-right: 16px; }
+    .header .userPhoto img {
+      width: 40px;
+      height: 40px;
+      border-radius: 24px; }
+  .header .user {
+    margin-left: 32px;
+    margin-bottom: 32px; }
+    .header .user p {
+      margin-bottom: 0; }
+    .header .user .email {
+      font-size: 0.875rem; }
+
+.assignment {
+  width: 77%;
+  padding: 32px; }
+
+.nav {
+  margin-bottom: 40px; }
+  .nav h2 {
+    font-size: 1.5rem;
+    margin-right: 48px; }
+  .nav p {
+    line-height: 26px; }
+  .nav span {
+    display: inline-block;
+    margin-left: 8px; }
+  .nav .navFunc .fa-search {
+    margin-right: 24px; }
+
+.list {
+  padding-right: 32px; }
+  .list span {
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 6px; }
+  .list .listBox {
+    width: 320px;
+    margin-right: 16px; }
+    .list .listBox li {
+      border: 1px solid #CED4DA;
+      padding: 12px; }
+
+.detail {
+  border: 1px solid #CED4DA;
+  width: 584px; }
+  .detail .detailTitle {
+    border-radius: 2px 2px 0px 0px;
+    padding: 12px 16px;
+    border-bottom: 1px solid #CED4DA; }
+
+.detailContent {
+  padding: 16px; }
+  .detailContent .personalData .pic {
+    margin-right: 8px; }
+  .detailContent .personalData .name {
+    margin-bottom: 4px; }
+  .detailContent .detailInfo {
+    padding-bottom: 16px;
+    margin-left: 48px; }
+    .detailContent .detailInfo .article {
+      margin-top: 16px;
+      font-size: 0.875rem; }
+
+.choseDetail .pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background: url("../images/emilywang.jpeg") no-repeat;
+  background-size: cover; }
+
+.choseDetail .detailInfo {
+  border-bottom: 1px solid #CED4DA; }
+
+.choseDetail .download {
+  margin-top: 16px;
+  width: 176px;
+  background-color: #F8F9FA;
+  border: 1px solid #CED4DA;
+  border-radius: 2px;
+  padding: 10px 16px 10px 12px; }
+  .choseDetail .download i {
+    margin-right: 8px; }
+
+.notChose .personalData .pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background: url("../images/andychen.jpeg") no-repeat;
+  background-size: cover; }
+
+.notChose .spacer {
+  margin: 24px 0; }
+
+.function {
+  width: 584px;
+  margin-top: 24px;
+  margin-left: 340px; }
+  .function a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #212529; }
+  .function .previous {
+    margin-right: 24px; }
+  .function .btn-outline-success {
+    width: 157px;
+    margin-right: 16px; }
+  .function .btn-success {
+    width: 105px; }
+
+/*# sourceMappingURL=all.css.map */

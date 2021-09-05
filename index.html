@@ -1,10 +1,64 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: Assignment
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Assignment
+  </title>
+  <!-- <link rel="stylesheet" href="./assets/style/all.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" F
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+  <link href="./assets/style/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="d-flex">
+  <header class="header gray-100">
+    <h1 class="logo"><a href="./index.html">LOGO</a></h1>
+
+    <div class="content d-flex flex-column justify-content-between">
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link boldTxt" aria-current="page" href="#"><i class="fas fa-poll me-3"></i>Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link boldTxt" href="#"><i class="fas fa-comments me-3"></i>Question</a>
+        </li>
+        <li class="nav-item choseNav">
+          <a class="nav-link boldTxt text-success" href="#"><i class="fas fa-poll me-3 text-success"></i>Assignment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link boldTxt" href="#"><i class="far fa-play-circle me-3"></i>Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link boldTxt" href="#"><i class="fas fa-user-friends me-3"></i>Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link boldTxt" href="#"><i class="fas fa-poo me-3"></i>Settings</a>
+        </li>
+      </ul>
+
+      <div class="user d-flex">
+        <div class="userPhoto">
+          <img src="./assets/images/andychen.jpeg" alt="使用者照片">
+        </div>
+        <div class="userInfo">
+          <p class="username boldTxt">Andy Chen</p>
+          <p class="email gray-600">andy0401@mail.com</p>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  
 <div class="assignment">
   <div class="nav d-flex justify-content-between align-items-center">
     <div class="title d-flex">
@@ -147,3 +201,10 @@ current: Assignment
   </div>
 
 </div>
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
